@@ -1,0 +1,5 @@
+PRODUCT_MAKEFILES := \
+    $(LOCAL_DIR)/twrp_U3A_7_3G.mk
+
+COMMON_LUNCH_CHOICES := \
+    twrp_U3A_7_3G-eng
