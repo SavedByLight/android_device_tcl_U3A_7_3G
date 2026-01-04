@@ -6,7 +6,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_minimal.mk
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from U3A_7_3G device
-$(call inherit-product, device/samsung/U3A_7_3G/device.mk)
+$(call inherit-product, device/tcl/U3A_7_3G/device.mk)
 
 PRODUCT_DEVICE := U3A_7_3G
 PRODUCT_NAME := twrp_U3A_7_3G
