@@ -77,12 +77,19 @@ TW_USE_LEGACY_BATTERY_SERVICES := true
 # Making the recovery.img smaller
 BOARD_HAS_NO_REAL_SDCARD := true
 
+<<<<<<< HEAD
 PRODUCT_FULL_TREBLE := false
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := false
 TARGET_USES_64_BIT_BINDER := false
 MTK_BOOTIMAGE_OVERSIZE := true
 BOARD_HAS_MTK_HARDWARE := true
 KERNEL_COMPRESSION := gzip
+=======
+# Excludes
+TW_EXCLUDE_SUPERSU := true
+TW_EXCLUDE_TWRPAPP := true
+TW_INCLUDE_CRYPTO := false
+>>>>>>> b38047bd1cb5c9e0f6a4cfe727d99e99fac753a4
 
 # Version
 TW_DEVICE_VERSION := SavedByLight
