@@ -1,6 +1,6 @@
 # inherit some stuff
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/core_minimal.mk
+$(call inherit-product, $(SRC_TARGET_DIR)/product/core_minimal.mk)
 
 # inherit some omni stuff
 $(call inherit-product, vendor/omni/config/common.mk)
@@ -15,7 +15,3 @@ PRODUCT_MODEL := 9009G
 PRODUCT_MANUFACTURER := tcl
 
 PRODUCT_GMS_CLIENTID_BASE := android-alcatel
-
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="9009G-user 8.1.0 O11019 vJ69-0 release-keys" \
-    BuildFingerprint := TCL/9009G/U3A_7_3G:8.1.0/O11019/vJ69-0:user/release-keys
