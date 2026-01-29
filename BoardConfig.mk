@@ -79,5 +79,10 @@ TW_USE_LEGACY_BATTERY_SERVICES := true
 # Making the recovery.img smaller
 BOARD_HAS_NO_REAL_SDCARD := true
 
+# Excludes
+TW_EXCLUDE_SUPERSU := true
+TW_EXCLUDE_TWRPAPP := true
+TW_INCLUDE_CRYPTO := false
+
 # Version
 TW_DEVICE_VERSION := SavedByLight
